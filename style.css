@@ -1,0 +1,105 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.container:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #2a9d8f;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.4em;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 1.1em;
+    margin: 8px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    font-size: 1em;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 14px;
+    text-align: center;
+}
+
+th {
+    background-color: #f1f1f1;
+    font-weight: 500;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.result-summary {
+    margin-top: 30px;
+    text-align: center;
+    background-color: #e3f7f2;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    color: #333;
+    font-weight: 600;
+}
+
+.result-summary p {
+    margin: 5px 0;
+}
+
+.grade-A {
+    color: green;
+}
+
+.grade-F {
+    color: red;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #888;
+}
+
+.footer a {
+    color: #2a9d8f;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
